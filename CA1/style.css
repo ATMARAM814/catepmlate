@@ -467,7 +467,7 @@ h3 {
 
 .demo-screen {
     flex: 1;
-    min-width: 300px;
+    min-width: min(300px, 100%);
     background-color: white;
     border: 1px solid var(--border-color);
     border-radius: 8px;
@@ -518,7 +518,7 @@ h3 {
 
 .demo-text {
     flex: 1;
-    min-width: 300px;
+    min-width: min(300px, 100%);
 }
 
 .demo-text h4 {
@@ -556,7 +556,7 @@ h3 {
 
 .tattva-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
     gap: 25px;
     margin-bottom: 50px;
 }
@@ -676,7 +676,7 @@ h3 {
 
 .footer-info {
     flex: 1;
-    min-width: 300px;
+    min-width: min(300px, 100%);
 }
 
 .footer-logo {
@@ -723,7 +723,7 @@ h3 {
 
 .footer-form {
     flex: 1;
-    min-width: 300px;
+    min-width: min(300px, 100%);
 }
 
 .footer-form h3 {
